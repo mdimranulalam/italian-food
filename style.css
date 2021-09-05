@@ -139,6 +139,20 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*---------------------------------
     -----Section-2 Styles-----
 ----------------------------------*/
@@ -253,6 +267,8 @@ body{
     .container{
         width: 100%;
     }
+
+    /* section - 1  */
     .section-1{
         background-image: url(images/background-1.png);
     }
@@ -310,5 +326,36 @@ body{
         color: #000000;
         font-weight: 400;
         font-family: "Fredericka the Great";
+    }
+
+    /* section - 2  */
+    .section-2-items h2{
+        width: 375px;
+        font-size: 36px;
+        text-align: center;
+    }
+    .section-2-items p{
+        width: 375px;
+        font-size: 15px;
+        text-align: center;
+        padding: 0px 10px
+    }
+    .background-table{
+        display: none;
+    }
+    .section-2-menu{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 50px;
+    }
+    .section-2-menu-item{
+        padding-bottom: 50px;
+        border-bottom: 0.5px solid #00000046;
+    }
+    .section-2-menu-item img{
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding-top: 30px;
     }
 }
