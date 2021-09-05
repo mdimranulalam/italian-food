@@ -1,0 +1,152 @@
+/*-----------------------------
+    -----Google Font-----
+------------------------------*/
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Gabriela */
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+/* Fredericka the Great */
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+/*-----------------------------
+    -----Local Font-----
+------------------------------*/
+@font-face {
+    font-family: 'Gabelisa';
+    src: url('fonts/Gabelisa\ Font\ by\ Keithzo\ \(7NTypes\).otf');
+    }
+
+
+/*-----------------------------
+    -----Common Styles-----
+------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.fix{
+    overflow: hidden;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+}
+
+
+/*---------------------------------
+    -----Section-1 Styles-----
+----------------------------------*/
+.section-1{
+    background-image: url(images/background-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section-1-child-1{
+    width: 600px;
+    text-align: center;
+    margin-left: 100px;
+}
+.section-1-child-1 .title-1{
+    font-size: 58px;
+    color: #000000;
+    font-family: 'Gabelisa', serif;
+    font-weight: 500;
+    padding-bottom: 27px; 
+}
+
+.section-1-child-1 .title-2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 90px;
+    color: #000000;
+    font-weight: 400;
+    padding-bottom: 35px; 
+}
+.section-1-child-1 .title-3{
+    font-size: 27px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding-bottom: 40px; 
+}
+.hr-1 {
+    width: 469px;
+    height: 1px;
+    background-color: #0000003b;
+    margin: auto;
+    margin-bottom: 43px;
+    border: 0;
+}
+.s1-child-item-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+    padding-bottom: 60px;
+}
+.s1-child-item-2 .title-4{
+    font-size: 19px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+}
+
+.s1-child-item-2 .title-5{
+    font-size: 57px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+}
+
+.order-btn{
+    width: 227px;
+    height: 58px;
+    background-color: rgba(248,23,23,0);
+    border: 1px solid #000000;
+    text-decoration: none;
+    color:#000000;
+    padding: 10px 20px;
+    font-size: 21px;
+    color: #000000;
+    font-weight: 800;
+    font-family: "Montserrat";
+}
+
+.section-1-child-2{
+
+}
+
+
+
+
+
+
+
+
+/*---------------------------------
+    -----Section-2 Styles-----
+----------------------------------*/
+
+
+
+
+/*---------------------------------
+    -----Section-3 Styles-----
+----------------------------------*/
+
+
+
+
+
+
+/*---------------------------------
+    -----Section-4 Styles-----
+----------------------------------*/
