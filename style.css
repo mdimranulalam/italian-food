@@ -285,10 +285,6 @@ body{
     padding-bottom: 40px;
 }
 
-
-
-
-
 /*---------------------------------
     -----Section-4 Styles-----
 ----------------------------------*/
@@ -393,5 +389,28 @@ body{
         height: 300px;
         margin: 0 auto;
         padding-top: 30px;
+    }
+
+    /* section-3 responsive  */
+    .section-3-items{
+        padding-top: 50px;
+        text-align: center;
+        width: 400px;
+        height: 80px;
+    }
+    .section-3-items .title-6{
+        font-size: 17px;
+        letter-spacing: 1px;
+        padding-bottom: 0px;
+    }
+    .section-3-items .title-7{
+        font-size: 30px;
+        padding-bottom: 15px;
+    }
+    .section-3-items p{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        padding: 0px 15px 30px 15px;
     }
 }
