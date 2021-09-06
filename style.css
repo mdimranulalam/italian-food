@@ -256,7 +256,6 @@ body{
     width: 1020px;
     height: 80px;  
     margin: 0 auto;
-
 }
 .section-3-items .title-6{
     font-size: 21px;
@@ -285,6 +284,96 @@ body{
     padding-bottom: 40px;
 }
 
+/* section-3-albums */
+.section-3-albums{
+    width: 100%;
+}
+.section-3-album-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.section-3-image-2{
+    width: 650px;
+}
+
+/* @media only screen and (max-width: 688px){
+
+} */
+
+
+/*---------------------------------
+    -----Section-4 Styles-----
+----------------------------------*/
+.section-4{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 160px;
+    height: 500px;
+}
+.section-4-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+}
+.section-4-child-1-img{
+    position: absolute;
+    z-index: -1;
+}
+.section-4-child-1-info{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+.title-8{
+    font-size: 25px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding-bottom: 10px;
+}
+.title-9{
+    font-size: 36px;
+    line-height: 38px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+
+
+..section-4-child-2{
+    position: absolute;
+}
+.section-4-child-2-img-1{
+    padding-bottom: 32px;
+    position: absolute;
+    z-index: -1;
+}
+.section-4-child-2-img-2{
+    position: relative;
+    z-index: -1;
+}
+
+.section-4-child-2-info{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+
+
+/*---------------------------------
+    -----Section-5 Styles-----
+----------------------------------*/
+
+
+
+
+
+
 /*---------------------------------
     -----Section-4 Styles-----
 ----------------------------------*/
@@ -300,9 +389,10 @@ body{
         width: 100%;
     }
 
-    /* section - 1  */
+    /* ---------section - 1----------  */
     .section-1{
         background-image: url(images/background-1.png);
+        background-size: auto;
     }
     
     .section-1-child-1{
@@ -359,8 +449,11 @@ body{
         font-weight: 400;
         font-family: "Fredericka the Great";
     }
+    .Spaghetti-flower img{
+        display: none;
+    }
 
-    /* section - 2  */
+    /* ----------section - 2-----------  */
     .section-2-items h2{
         width: 375px;
         font-size: 36px;
@@ -391,7 +484,7 @@ body{
         padding-top: 30px;
     }
 
-    /* section-3 responsive  */
+    /* ---------section-3-------- */
     .section-3-items{
         padding-top: 50px;
         text-align: center;
@@ -412,5 +505,21 @@ body{
         line-height: 25px;
         text-align: center;
         padding: 0px 15px 30px 15px;
+    }
+    .section-3-album-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 200px;
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .section-3-image-1{
+        padding-bottom: 30px;
+    }
+    .section-3-image-2{
+        display: none;
+    }
+    .section-4{
+        display: none;
     }
 }
