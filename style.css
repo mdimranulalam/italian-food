@@ -247,7 +247,43 @@ body{
 /*---------------------------------
     -----Section-3 Styles-----
 ----------------------------------*/
+/* .section-3{
 
+} */
+.section-3-items{
+    padding-top: 100px;
+    text-align: center;
+    width: 1020px;
+    height: 80px;  
+    margin: 0 auto;
+
+}
+.section-3-items .title-6{
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 46px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding-bottom: 12px;
+}
+.section-3-items .title-7{
+    font-size: 42px;
+    line-height: 46px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+    padding-bottom: 30px;
+}
+.section-3-items p{
+    font-size: 17px;
+    line-height: 25px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-bottom: 40px;
+}
 
 
 
