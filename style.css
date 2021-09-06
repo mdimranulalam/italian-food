@@ -310,7 +310,7 @@ body{
 .section-4{
     width: 80%;
     margin: 0 auto;
-    margin-top: 160px;
+    margin-top: 100px;
     height: 500px;
 }
 .section-4-items{
@@ -344,9 +344,6 @@ body{
 }
 
 
-..section-4-child-2{
-    position: absolute;
-}
 .section-4-child-2-img-1{
     padding-bottom: 32px;
     position: absolute;
@@ -368,16 +365,155 @@ body{
 /*---------------------------------
     -----Section-5 Styles-----
 ----------------------------------*/
+.section-5-info{
+    text-align: center;
+}
+.section-5-info .title-10{
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding-bottom: 24px;
+}
+.section-5-info .title-11{
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Fredericka the Great";
+    padding-bottom: 40px;
+}
 
-
+/* CONTACT FORM STYLE */
+.contact-form{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.form-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 25px;
+    justify-items: center;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.form-info{
+    width: 379px;
+    height: 65px;
+    border-radius: 5px;
+    background-color: rgba(235,174,76,0);
+    border: 1px solid #bebebe;
+    /* placeholder */
+    font-size: 17px;
+    line-height: 46px;
+    color: #3d3d3d;
+    font-weight: 400;
+    font-family: "Montserrat";
+    padding-left: 20px;
+}
+.submit-btn{
+    width: 399px;
+    background-color: #ffe001;
+    font-size: 21px;
+    color: #000000;
+    font-weight: 700;
+    font-family: "Montserrat";
+    padding-left: 0;
+}
 
 
 
 
 /*---------------------------------
-    -----Section-4 Styles-----
+    -------Footer Style-------
 ----------------------------------*/
+.footer-bg{
+    background-image: url(images/bg-images.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 584px;
+    margin-top: 100px;
+}
+.footer-logo{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.footer-logo h2{
+    font-size: 46px;
+    color: #ffe001;
+    font-family: "Montserrat";
+    padding-bottom: 70px;
+}
 
+.footer-child {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-bottom: 180px;
+}
+.footer-details{
+    width: 512px;
+    height: 88px;
+    margin-left: 100px;
+}
+.footer-details p{
+    font-size: 17px;
+    line-height: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+
+
+.footer-address{
+    display: flex;
+    padding-bottom: 17px;
+    padding-top: 30px;
+}
+.footer-address p{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    padding-left: 35px;
+}
+
+.footer-email{
+    display: flex;
+}
+.footer-email p{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+    padding-left: 35px;
+}
+
+.footer-last-child{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+}
+.copyright{
+    margin-left: 100px;
+}
+.copyright p{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+.social-icon{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 13px;
+}
 
 /*---------------------------------
     -------Media Queary-------
@@ -406,7 +542,6 @@ body{
         font-weight: 500;
         padding-bottom: 27px;
     }
-    
     .section-1-child-1 .title-2{
         font-family: 'Fredericka the Great', cursive;
         font-size: 50px;
@@ -442,7 +577,6 @@ body{
         font-weight: 400;
         font-family: "Fredericka the Great";
     }
-    
     .s1-child-item-2 .title-5{
         font-size: 57px;
         color: #000000;
@@ -452,7 +586,6 @@ body{
     .Spaghetti-flower img{
         display: none;
     }
-
     /* ----------section - 2-----------  */
     .section-2-items h2{
         width: 375px;
